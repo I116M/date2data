@@ -7,7 +7,7 @@ Easy to get a date.
 npx i date2data
 ```
 
-## usage
+## Usage
 ```javascript
 import date2data from "date2data"
 
