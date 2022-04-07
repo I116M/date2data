@@ -1,0 +1,22 @@
+{
+    "name": "date2data",
+    "version": "1.0.0",
+    "description": "Easy to get date",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/I116M/date2data.git"
+    },
+    "keywords": [
+        "date"
+    ],
+    "author": "durio0312",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/I116M/date2data/issues"
+    },
+    "homepage": "https://github.com/I116M/date2data#readme"
+}
