@@ -4,7 +4,7 @@ Easy to get a date.
 
 ## Install
 ```sh
-npx i date2data
+npm i date2data
 ```
 
 ## Usage
