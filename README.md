@@ -1,5 +1,5 @@
 # date2data
-Easy to get a date.
+테이블에 날짜별 데이터 넣을 때마다 새로 객체 만들어서 작업하기가 매우 귀찮아서 만들었다. moment.js를 쓰기에는 구현하고자 하는 내용이 너무 가벼웠음
 
 
 ## Install
