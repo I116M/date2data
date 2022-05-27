@@ -1,7 +1,7 @@
 {
     "name": "date2data",
-    "version": "1.0.3",
-    "description": "Easy to get date",
+    "version": "1.0.4",
+    "description": "Return the date to an array easily and simply.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
         "url": "git+https://github.com/I116M/date2data.git"
     },
     "keywords": [
-        "date"
+        "date, date-to-json, monthly-date, yearly-date, date2data"
     ],
     "author": "durio0312",
     "license": "MIT",

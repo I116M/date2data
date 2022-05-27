@@ -1,6 +1,13 @@
 const getLastDate = (year, month) => {
     return new Date(year, month, 0).toLocaleString().split(".")[2];
 };
+const changeFormat = (num) => {
+    if (String(num).length == 1) {
+        return "0" + num;
+    } else {
+        return num;
+    }
+};
 
 const getMonthlyDate = (selectYear, selectMonth) => {
     const dateObj = new Array();
@@ -16,11 +23,13 @@ const getMonthlyDate = (selectYear, selectMonth) => {
         }
     } else {
         for (let i = 1; i <= getLastDate(selectYear, selectMonth); i++) {
+            let selectedMonthResult, selectedDayResult;
+
             dateObj.push({
                 year: selectYear,
                 month: selectMonth,
                 date: i,
-                format: `${selectYear}-${selectMonth}-${i}`,
+                format: `${selectYear}-${changeFormat(selectMonth)}-${changeFormat(i)}`,
             });
         }
     }
