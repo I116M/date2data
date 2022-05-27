@@ -33,5 +33,5 @@ getYearlyDate(2022) //return yearly date
 - Add yearly function
 - Change function name
 
-### 2022-04-12
+### 2022-05-27
 - Change date format
