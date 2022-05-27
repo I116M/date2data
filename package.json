@@ -1,6 +1,6 @@
 {
     "name": "date2data",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Return the date to an array easily and simply.",
     "main": "index.js",
     "scripts": {
